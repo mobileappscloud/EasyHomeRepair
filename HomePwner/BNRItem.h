@@ -17,6 +17,8 @@
     NSDate *_dateCreated;
 }
 
+@property (nonatomic, copy) NSString *itemKey;
+
 - (void)setItemName:(NSString *)str;
 - (NSString *)itemName;
 
