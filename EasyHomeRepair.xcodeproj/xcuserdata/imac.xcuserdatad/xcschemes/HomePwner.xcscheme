@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88E071B4193BDF6000BA06EE"
                BuildableName = "HomePwner.app"
-               BlueprintName = "HomePwner"
-               ReferencedContainer = "container:HomePwner.xcodeproj">
+               BlueprintName = "EasyHomeRepair"
+               ReferencedContainer = "container:EasyHomeRepair.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88E071CF193BDF6000BA06EE"
                BuildableName = "HomePwnerTests.xctest"
-               BlueprintName = "HomePwnerTests"
-               ReferencedContainer = "container:HomePwner.xcodeproj">
+               BlueprintName = "EasyHomeRepairTests"
+               ReferencedContainer = "container:EasyHomeRepair.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88E071B4193BDF6000BA06EE"
             BuildableName = "HomePwner.app"
-            BlueprintName = "HomePwner"
-            ReferencedContainer = "container:HomePwner.xcodeproj">
+            BlueprintName = "EasyHomeRepair"
+            ReferencedContainer = "container:EasyHomeRepair.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88E071B4193BDF6000BA06EE"
             BuildableName = "HomePwner.app"
-            BlueprintName = "HomePwner"
-            ReferencedContainer = "container:HomePwner.xcodeproj">
+            BlueprintName = "EasyHomeRepair"
+            ReferencedContainer = "container:EasyHomeRepair.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "88E071B4193BDF6000BA06EE"
             BuildableName = "HomePwner.app"
-            BlueprintName = "HomePwner"
-            ReferencedContainer = "container:HomePwner.xcodeproj">
+            BlueprintName = "EasyHomeRepair"
+            ReferencedContainer = "container:EasyHomeRepair.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

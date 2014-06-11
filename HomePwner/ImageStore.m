@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 CongenialApps. All rights reserved.
 //
 
-#import "BNRImageStore.h"
+#import "ImageStore.h"
 
 @interface BNRImageStore ()
 

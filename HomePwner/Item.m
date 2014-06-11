@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 CongenialApps. All rights reserved.
 //
 
-#import "BNRItem.h"
+#import "Item.h"
 
 @implementation BNRItem
 

@@ -19,12 +19,12 @@
 		88E071D4193BDF6100BA06EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E071BC193BDF6000BA06EE /* UIKit.framework */; };
 		88E071DC193BDF6100BA06EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88E071DA193BDF6100BA06EE /* InfoPlist.strings */; };
 		88E071DE193BDF6100BA06EE /* HomePwnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E071DD193BDF6100BA06EE /* HomePwnerTests.m */; };
-		88E071E9193BE0FF00BA06EE /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E071E8193BE0FF00BA06EE /* BNRItemsViewController.m */; };
-		88E071EF193BED8500BA06EE /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E071EE193BED8500BA06EE /* BNRItem.m */; };
-		88E57BB91941303D001B5A99 /* BNRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E57BB71941303D001B5A99 /* BNRDetailViewController.m */; };
-		88E57BBA1941303D001B5A99 /* BNRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E57BB81941303D001B5A99 /* BNRDetailViewController.xib */; };
-		88E57BBD19413A6F001B5A99 /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E57BBC19413A6F001B5A99 /* BNRItemStore.m */; };
-		88E57BC019413B6C001B5A99 /* BNRImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E57BBF19413B6C001B5A99 /* BNRImageStore.m */; };
+		88E071E9193BE0FF00BA06EE /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E071E8193BE0FF00BA06EE /* ItemsViewController.m */; };
+		88E071EF193BED8500BA06EE /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E071EE193BED8500BA06EE /* Item.m */; };
+		88E57BB91941303D001B5A99 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E57BB71941303D001B5A99 /* DetailViewController.m */; };
+		88E57BBA1941303D001B5A99 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E57BB81941303D001B5A99 /* DetailViewController.xib */; };
+		88E57BBD19413A6F001B5A99 /* ItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E57BBC19413A6F001B5A99 /* ItemStore.m */; };
+		88E57BC019413B6C001B5A99 /* ImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E57BBF19413B6C001B5A99 /* ImageStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,33 +38,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		88E071B5193BDF6000BA06EE /* HomePwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E071B5193BDF6000BA06EE /* EasyHomeRepair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyHomeRepair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E071B8193BDF6000BA06EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		88E071BA193BDF6000BA06EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		88E071BC193BDF6000BA06EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		88E071C0193BDF6000BA06EE /* HomePwner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomePwner-Info.plist"; sourceTree = "<group>"; };
+		88E071C0193BDF6000BA06EE /* EasyHomeRepair-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyHomeRepair-Info.plist"; sourceTree = "<group>"; };
 		88E071C2193BDF6000BA06EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88E071C4193BDF6000BA06EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		88E071C6193BDF6000BA06EE /* HomePwner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomePwner-Prefix.pch"; sourceTree = "<group>"; };
+		88E071C6193BDF6000BA06EE /* EasyHomeRepair-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyHomeRepair-Prefix.pch"; sourceTree = "<group>"; };
 		88E071C7193BDF6000BA06EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88E071C8193BDF6000BA06EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		88E071CA193BDF6000BA06EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		88E071D0193BDF6000BA06EE /* HomePwnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomePwnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E071D0193BDF6000BA06EE /* EasyHomeRepairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyHomeRepairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E071D1193BDF6100BA06EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		88E071D9193BDF6100BA06EE /* HomePwnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomePwnerTests-Info.plist"; sourceTree = "<group>"; };
+		88E071D9193BDF6100BA06EE /* EasyHomeRepairTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyHomeRepairTests-Info.plist"; sourceTree = "<group>"; };
 		88E071DB193BDF6100BA06EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88E071DD193BDF6100BA06EE /* HomePwnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePwnerTests.m; sourceTree = "<group>"; };
-		88E071E7193BE0FF00BA06EE /* BNRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemsViewController.h; sourceTree = "<group>"; };
-		88E071E8193BE0FF00BA06EE /* BNRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemsViewController.m; sourceTree = "<group>"; };
-		88E071ED193BED8500BA06EE /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
-		88E071EE193BED8500BA06EE /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
-		88E57BB61941303D001B5A99 /* BNRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRDetailViewController.h; path = ../BNRDetailViewController.h; sourceTree = "<group>"; };
-		88E57BB71941303D001B5A99 /* BNRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRDetailViewController.m; path = ../BNRDetailViewController.m; sourceTree = "<group>"; };
-		88E57BB81941303D001B5A99 /* BNRDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BNRDetailViewController.xib; path = ../BNRDetailViewController.xib; sourceTree = "<group>"; };
-		88E57BBB19413A6F001B5A99 /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
-		88E57BBC19413A6F001B5A99 /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
-		88E57BBE19413B6C001B5A99 /* BNRImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRImageStore.h; sourceTree = "<group>"; };
-		88E57BBF19413B6C001B5A99 /* BNRImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRImageStore.m; sourceTree = "<group>"; };
+		88E071E7193BE0FF00BA06EE /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		88E071E8193BE0FF00BA06EE /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		88E071ED193BED8500BA06EE /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		88E071EE193BED8500BA06EE /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		88E57BB61941303D001B5A99 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		88E57BB71941303D001B5A99 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		88E57BB81941303D001B5A99 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = ../DetailViewController.xib; sourceTree = "<group>"; };
+		88E57BBB19413A6F001B5A99 /* ItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemStore.h; sourceTree = "<group>"; };
+		88E57BBC19413A6F001B5A99 /* ItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemStore.m; sourceTree = "<group>"; };
+		88E57BBE19413B6C001B5A99 /* ImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageStore.h; sourceTree = "<group>"; };
+		88E57BBF19413B6C001B5A99 /* ImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 		88E071B6193BDF6000BA06EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88E071B5193BDF6000BA06EE /* HomePwner.app */,
-				88E071D0193BDF6000BA06EE /* HomePwnerTests.xctest */,
+				88E071B5193BDF6000BA06EE /* EasyHomeRepair.app */,
+				88E071D0193BDF6000BA06EE /* EasyHomeRepairTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,17 +126,17 @@
 			children = (
 				88E071C8193BDF6000BA06EE /* AppDelegate.m */,
 				88E071C7193BDF6000BA06EE /* AppDelegate.h */,
-				88E57BBB19413A6F001B5A99 /* BNRItemStore.h */,
-				88E57BBC19413A6F001B5A99 /* BNRItemStore.m */,
-				88E57BBE19413B6C001B5A99 /* BNRImageStore.h */,
-				88E57BBF19413B6C001B5A99 /* BNRImageStore.m */,
-				88E071ED193BED8500BA06EE /* BNRItem.h */,
-				88E071EE193BED8500BA06EE /* BNRItem.m */,
-				88E071E7193BE0FF00BA06EE /* BNRItemsViewController.h */,
-				88E071E8193BE0FF00BA06EE /* BNRItemsViewController.m */,
-				88E57BB61941303D001B5A99 /* BNRDetailViewController.h */,
-				88E57BB71941303D001B5A99 /* BNRDetailViewController.m */,
-				88E57BB81941303D001B5A99 /* BNRDetailViewController.xib */,
+				88E57BBB19413A6F001B5A99 /* ItemStore.h */,
+				88E57BBC19413A6F001B5A99 /* ItemStore.m */,
+				88E57BBE19413B6C001B5A99 /* ImageStore.h */,
+				88E57BBF19413B6C001B5A99 /* ImageStore.m */,
+				88E071ED193BED8500BA06EE /* Item.h */,
+				88E071EE193BED8500BA06EE /* Item.m */,
+				88E071E7193BE0FF00BA06EE /* ItemsViewController.h */,
+				88E071E8193BE0FF00BA06EE /* ItemsViewController.m */,
+				88E57BB61941303D001B5A99 /* DetailViewController.h */,
+				88E57BB71941303D001B5A99 /* DetailViewController.m */,
+				88E57BB81941303D001B5A99 /* DetailViewController.xib */,
 				88E071CA193BDF6000BA06EE /* Images.xcassets */,
 				88E071BF193BDF6000BA06EE /* Supporting Files */,
 			);
@@ -146,10 +146,10 @@
 		88E071BF193BDF6000BA06EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				88E071C0193BDF6000BA06EE /* HomePwner-Info.plist */,
+				88E071C0193BDF6000BA06EE /* EasyHomeRepair-Info.plist */,
 				88E071C1193BDF6000BA06EE /* InfoPlist.strings */,
 				88E071C4193BDF6000BA06EE /* main.m */,
-				88E071C6193BDF6000BA06EE /* HomePwner-Prefix.pch */,
+				88E071C6193BDF6000BA06EE /* EasyHomeRepair-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 		88E071D8193BDF6100BA06EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				88E071D9193BDF6100BA06EE /* HomePwnerTests-Info.plist */,
+				88E071D9193BDF6100BA06EE /* EasyHomeRepairTests-Info.plist */,
 				88E071DA193BDF6100BA06EE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -175,9 +175,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88E071B4193BDF6000BA06EE /* HomePwner */ = {
+		88E071B4193BDF6000BA06EE /* EasyHomeRepair */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88E071E1193BDF6100BA06EE /* Build configuration list for PBXNativeTarget "HomePwner" */;
+			buildConfigurationList = 88E071E1193BDF6100BA06EE /* Build configuration list for PBXNativeTarget "EasyHomeRepair" */;
 			buildPhases = (
 				88E071B1193BDF6000BA06EE /* Sources */,
 				88E071B2193BDF6000BA06EE /* Frameworks */,
@@ -187,14 +187,14 @@
 			);
 			dependencies = (
 			);
-			name = HomePwner;
+			name = EasyHomeRepair;
 			productName = HomePwner;
-			productReference = 88E071B5193BDF6000BA06EE /* HomePwner.app */;
+			productReference = 88E071B5193BDF6000BA06EE /* EasyHomeRepair.app */;
 			productType = "com.apple.product-type.application";
 		};
-		88E071CF193BDF6000BA06EE /* HomePwnerTests */ = {
+		88E071CF193BDF6000BA06EE /* EasyHomeRepairTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88E071E4193BDF6100BA06EE /* Build configuration list for PBXNativeTarget "HomePwnerTests" */;
+			buildConfigurationList = 88E071E4193BDF6100BA06EE /* Build configuration list for PBXNativeTarget "EasyHomeRepairTests" */;
 			buildPhases = (
 				88E071CC193BDF6000BA06EE /* Sources */,
 				88E071CD193BDF6000BA06EE /* Frameworks */,
@@ -205,9 +205,9 @@
 			dependencies = (
 				88E071D6193BDF6100BA06EE /* PBXTargetDependency */,
 			);
-			name = HomePwnerTests;
+			name = EasyHomeRepairTests;
 			productName = HomePwnerTests;
-			productReference = 88E071D0193BDF6000BA06EE /* HomePwnerTests.xctest */;
+			productReference = 88E071D0193BDF6000BA06EE /* EasyHomeRepairTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88E071B0193BDF6000BA06EE /* Build configuration list for PBXProject "HomePwner" */;
+			buildConfigurationList = 88E071B0193BDF6000BA06EE /* Build configuration list for PBXProject "EasyHomeRepair" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -236,8 +236,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88E071B4193BDF6000BA06EE /* HomePwner */,
-				88E071CF193BDF6000BA06EE /* HomePwnerTests */,
+				88E071B4193BDF6000BA06EE /* EasyHomeRepair */,
+				88E071CF193BDF6000BA06EE /* EasyHomeRepairTests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,7 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E57BBA1941303D001B5A99 /* BNRDetailViewController.xib in Resources */,
+				88E57BBA1941303D001B5A99 /* DetailViewController.xib in Resources */,
 				88E071C3193BDF6000BA06EE /* InfoPlist.strings in Resources */,
 				88E071CB193BDF6000BA06EE /* Images.xcassets in Resources */,
 			);
@@ -268,13 +268,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E57BB91941303D001B5A99 /* BNRDetailViewController.m in Sources */,
-				88E071E9193BE0FF00BA06EE /* BNRItemsViewController.m in Sources */,
-				88E57BC019413B6C001B5A99 /* BNRImageStore.m in Sources */,
+				88E57BB91941303D001B5A99 /* DetailViewController.m in Sources */,
+				88E071E9193BE0FF00BA06EE /* ItemsViewController.m in Sources */,
+				88E57BC019413B6C001B5A99 /* ImageStore.m in Sources */,
 				88E071C9193BDF6000BA06EE /* AppDelegate.m in Sources */,
-				88E071EF193BED8500BA06EE /* BNRItem.m in Sources */,
+				88E071EF193BED8500BA06EE /* Item.m in Sources */,
 				88E071C5193BDF6000BA06EE /* main.m in Sources */,
-				88E57BBD19413A6F001B5A99 /* BNRItemStore.m in Sources */,
+				88E57BBD19413A6F001B5A99 /* ItemStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +291,7 @@
 /* Begin PBXTargetDependency section */
 		88E071D6193BDF6100BA06EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 88E071B4193BDF6000BA06EE /* HomePwner */;
+			target = 88E071B4193BDF6000BA06EE /* EasyHomeRepair */;
 			targetProxy = 88E071D5193BDF6100BA06EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,9 +392,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HomePwner/HomePwner-Prefix.pch";
-				INFOPLIST_FILE = "HomePwner/HomePwner-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "HomePwner/EasyHomeRepair-Prefix.pch";
+				INFOPLIST_FILE = "HomePwner/EasyHomeRepair-Info.plist";
+				PRODUCT_NAME = EasyHomeRepair;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,9 +405,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HomePwner/HomePwner-Prefix.pch";
-				INFOPLIST_FILE = "HomePwner/HomePwner-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "HomePwner/EasyHomeRepair-Prefix.pch";
+				INFOPLIST_FILE = "HomePwner/EasyHomeRepair-Info.plist";
+				PRODUCT_NAME = EasyHomeRepair;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -427,8 +427,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HomePwnerTests/HomePwnerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HomePwnerTests/EasyHomeRepairTests-Info.plist";
+				PRODUCT_NAME = EasyHomeRepairTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,8 +445,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HomePwner/HomePwner-Prefix.pch";
-				INFOPLIST_FILE = "HomePwnerTests/HomePwnerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HomePwnerTests/EasyHomeRepairTests-Info.plist";
+				PRODUCT_NAME = EasyHomeRepairTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -455,7 +455,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88E071B0193BDF6000BA06EE /* Build configuration list for PBXProject "HomePwner" */ = {
+		88E071B0193BDF6000BA06EE /* Build configuration list for PBXProject "EasyHomeRepair" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88E071DF193BDF6100BA06EE /* Debug */,
@@ -464,7 +464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88E071E1193BDF6100BA06EE /* Build configuration list for PBXNativeTarget "HomePwner" */ = {
+		88E071E1193BDF6100BA06EE /* Build configuration list for PBXNativeTarget "EasyHomeRepair" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88E071E2193BDF6100BA06EE /* Debug */,
@@ -473,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88E071E4193BDF6100BA06EE /* Build configuration list for PBXNativeTarget "HomePwnerTests" */ = {
+		88E071E4193BDF6100BA06EE /* Build configuration list for PBXNativeTarget "EasyHomeRepairTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88E071E5193BDF6100BA06EE /* Debug */,

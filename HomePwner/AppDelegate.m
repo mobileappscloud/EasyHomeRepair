@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BNRItemsViewController.h"
+#import "ItemsViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

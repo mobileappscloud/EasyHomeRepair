@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 CongenialApps. All rights reserved.
 //
 
-#import "BNRDetailViewController.h"
-#import "BNRItem.h"
-#import "BNRImageStore.h"
+#import "DetailViewController.h"
+#import "Item.h"
+#import "ImageStore.h"
 
 @interface BNRDetailViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *nameField;

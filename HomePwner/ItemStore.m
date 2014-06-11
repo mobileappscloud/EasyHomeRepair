@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 CongenialApps. All rights reserved.
 //
 
-#import "BNRItemStore.h"
-#import "BNRItemsViewController.h"
-#import "BNRItem.h"
-#import "BNRImageStore.h"
+#import "ItemStore.h"
+#import "ItemsViewController.h"
+#import "Item.h"
+#import "ImageStore.h"
 
 @interface BNRItemStore ()
 

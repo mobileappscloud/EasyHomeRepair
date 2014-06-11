@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 CongenialApps. All rights reserved.
 //
 
-#import "BNRItemsViewController.h"
-#import "BNRItem.h"
-#import "BNRItemStore.h"
-#import "BNRDetailViewController.h"
+#import "ItemsViewController.h"
+#import "Item.h"
+#import "ItemStore.h"
+#import "DetailViewController.h"
 
 
 
@@ -61,7 +61,7 @@
     if (self)
     {
         UINavigationItem *navItem = self.navigationItem;
-        navItem.title = @"Homepwner";
+        navItem.title = @"EasyHomeRepair";
         
         // Create a new bar button item that will send
         // addNewItem: to BNRItemsViewController
